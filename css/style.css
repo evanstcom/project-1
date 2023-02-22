@@ -405,6 +405,7 @@ a {
   height: 40px;
   border: 2px solid #66C05D;
   background-color: transparent;
+  color: #333333;
 }
 .main-btn:hover {
   border-color: transparent;
@@ -733,14 +734,9 @@ a {
   .right-wrapper__elipse_small {
     width: 450px;
     height: 450px;
-    background: rgba(255, 255, 255, 0.4);
-    border-radius: 50%;
-    position: absolute;
     top: -225px;
     left: 75px;
     display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .right-wrapper__elipse_small img {
     width: 400px;
@@ -761,14 +757,8 @@ a {
   .right-wrapper__elipse_small {
     width: 320px;
     height: 320px;
-    background: rgba(255, 255, 255, 0.4);
-    border-radius: 50%;
-    position: absolute;
     top: -160px;
     left: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .right-wrapper__elipse_small img {
     width: 300px;
@@ -847,14 +837,8 @@ a {
   .right-wrapper__elipse_small {
     width: 270px;
     height: 270px;
-    background: rgba(255, 255, 255, 0.4);
-    border-radius: 50%;
-    position: absolute;
     top: -135px;
     left: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .right-wrapper__elipse_small img {
     width: 200px;
@@ -892,7 +876,7 @@ a {
     height: 2px;
     width: 100%;
     display: block;
-    background: #66C05D;
+    background: #333333;
     margin-bottom: 4px;
     transition: 1s all;
   }
